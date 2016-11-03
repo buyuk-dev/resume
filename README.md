@@ -41,6 +41,9 @@ Development of company’s software platform for set-top-boxes. Working in a rem
 
 Lead software engineer at company's crucial projects: [AudioImmersion][1] and [AudioSense][2]. I have also helped in the development of state-of-the-art audio encoding technology, which recently become part of MPEG USAC standard.
 
+[1]: http://audioimmersion.pl/
+[2]: http://www.zylia.pl/3d-audiosense.html
+
 #### [Jun 2014 - Sep 2014] Zylia sp. z o.o.
 
 *Intern R&D Software Engineer*
