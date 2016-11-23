@@ -6,7 +6,7 @@ Software Engineer
 [Warsaw, Poland](https://goo.gl/maps/Brh7qcGuLKx)  
 [buyuk.dev@gmail.com](mailto:buyuk.dev@gmail.com)
 
-*Software developer with almost 3 years of professional experience with software architecture,
+*Software developer with 3 years of professional experience with software architecture,
 C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 
 ### Skills
