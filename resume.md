@@ -35,7 +35,7 @@ Design, implementation and maintenance of one of the best solutions for airline 
 
 Development of company’s software platform for set-top-boxes. Working in a remote scrum team on tasks such as implementing new features, maintaining existing code base and integrating implemented features with customers products.
 
-#### [Sep 2014 - Sep 2016] Zylia sp. z o.o.
+#### [Sep 2014 - Sep 2015] Zylia sp. z o.o.
 
 *R&D Software Engineer*
 
