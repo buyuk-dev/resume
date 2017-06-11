@@ -21,9 +21,9 @@ C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 
 ### Experience
 
-#### [Mar 2017 - ...] Nokia
+#### [Mar 2017 - ...] Sii
 
-*Software Engineer*
+*Software Engineer @Nokia*
 
 Development and maintenance of LTE base station software in C++ / Python;
 
