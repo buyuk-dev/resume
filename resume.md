@@ -27,19 +27,17 @@ C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 
 Development and maintenance of LTE base station software in C++ / Python;
 
-#### [Feb 2016 - Feb 2017] Hewlett-Packard Enterprise / Sabre
+#### [Feb 2016 - Feb 2017] Hewlett-Packard Enterprise
 
-*Designer / Backend C++ Developer*
+*Designer / Backend C++ Developer @Sabre*
 
 Development and maintenance of one of the best solutions for airline reservation systems in the market.
 
-#### [Sep 2015 - Feb 2016] Zylia sp. z o.o. / Zenterio AB
+#### [Jun 2014 - Feb 2016] Zylia sp. z o.o.
 
-*C++ Developer*
+*C++ Developer @Zenterio AB*
 
 Development of company’s software platform for set-top-boxes. Working in a remote scrum team on tasks such as implementing new features, maintaining existing code base and integrating implemented features with customers products.
-
-#### [Sep 2014 - Sep 2015] Zylia sp. z o.o.
 
 *R&D Software Engineer*
 
@@ -47,8 +45,6 @@ Lead software engineer at company's crucial projects: [AudioImmersion][1] and [A
 
 [1]: http://audioimmersion.pl/
 [2]: http://www.zylia.pl/3d-audiosense.html
-
-#### [Jun 2014 - Sep 2014] Zylia sp. z o.o.
 
 *Intern R&D Software Engineer*
 
