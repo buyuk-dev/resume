@@ -21,7 +21,7 @@ C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 
 ### Experience
 
-#### [Mar 2017 - ...] Sii / Nokia
+#### [Mar 2017 - ...] Nokia
 
 *Software Engineer*
 
@@ -33,9 +33,9 @@ Development and maintenance of LTE base station software in C++ / Python;
 
 Development and maintenance of one of the best solutions for airline reservation systems in the market.
 
-#### [Jun 2014 - Feb 2016] Zylia sp. z o.o.
+#### [Jun 2014 - Feb 2016] Zylia
 
-*C++ Developer @Zenterio AB*
+*C++ Developer @Zenterio*
 
 Development of company’s software platform for set-top-boxes. Working in a remote scrum team on tasks such as implementing new features, maintaining existing code base and integrating implemented features with customers products.
 
@@ -50,7 +50,7 @@ Lead software engineer at company's crucial projects: [AudioImmersion][1] and [A
 
 I have designed and developed proprietary algorithm for decoding digital watermark from H264 video stream using C++ language with GStreamer multimedia processing framework.
 
-#### [Sep 2013 - Dec 2013] Serious Impact s.c.
+#### [Sep 2013 - Dec 2013] Serious Impact
 
 *C++ / Java Developer*
 
