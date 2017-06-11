@@ -3,7 +3,7 @@ Michał Michalski CV
 Software Engineer
 --------------------
 
-[Warsaw, Poland](https://goo.gl/maps/Brh7qcGuLKx)  
+[Wrocław, Poland](https://goo.gl/maps/AB7o5ebMKSG2)  
 [buyuk.dev@gmail.com](mailto:buyuk.dev@gmail.com)
 
 *Software developer with 3 years of professional experience with software architecture,
