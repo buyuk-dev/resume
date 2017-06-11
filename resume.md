@@ -15,19 +15,23 @@ C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 + Python
 + JavaScript
 + Shell
-+ Software Architecture
-+ Algorithms
 + Git
 + Scrum
 
 
 ### Experience
 
-#### [Feb 2016 - ...] Hewlett-Packard Enterprise / Sabre
+#### [Mar 2017 - ...] Sii / Nokia
+
+*Software Engineer*
+
+Development and maintenance of LTE base station software in C++ / Python;
+
+#### [Feb 2016 - Feb 2017] Hewlett-Packard Enterprise / Sabre
 
 *Designer / Backend C++ Developer*
 
-Design, implementation and maintenance of one of the best solutions for airline reservation systems in the market.
+Development and maintenance of one of the best solutions for airline reservation systems in the market.
 
 #### [Sep 2015 - Feb 2016] Zylia sp. z o.o. / Zenterio AB
 
@@ -61,10 +65,8 @@ Porting 3D ski jumping game from iOS to Android devices. I was responsible for d
 
 + Polish (native proficiency)
 + English (full professional proficiency)
-+ Spanish (beginner)
-
 
 ### Interests
 
-+ everything artificially intelligent
-+ climbing and mountaineering
++ artificial intelligence
++ climbing, playing violin
