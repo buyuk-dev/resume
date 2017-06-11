@@ -1,4 +1,4 @@
-Michał Michalski CV
+Michał Michalski
 ====================
 Software Engineer
 --------------------
