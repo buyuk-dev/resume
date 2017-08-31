@@ -4,8 +4,8 @@ Software Engineer
 --------------------
 
 [Wrocław, Poland](https://goo.gl/maps/AB7o5ebMKSG2)  
-[buyuk.dev@gmail.com](mailto:buyuk.dev@gmail.com)
-[buyuk-dev.com](http://buyuk-dev.com)
+[buyuk.dev@gmail.com](mailto:buyuk.dev@gmail.com) 
+[buyuk-dev.com](http://buyuk-dev.com) 
 
 *Software developer with 3++ years of professional experience with software architecture,
 C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
