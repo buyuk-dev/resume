@@ -5,6 +5,7 @@ Software Engineer
 
 [Wrocław, Poland](https://goo.gl/maps/AB7o5ebMKSG2)  
 [buyuk.dev@gmail.com](mailto:buyuk.dev@gmail.com)
+[buyuk-dev.com](http://buyuk-dev.com)
 
 *Software developer with 3++ years of professional experience with software architecture,
 C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
@@ -25,7 +26,7 @@ C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 
 *Software Engineer @Nokia*
 
-Development and maintenance of LTE base station software in C++ / Python;
+Development and maintenance of LTE base station software in modern C++(11 and 14) and Python;
 
 #### 02.2016 - 02.2017 Hewlett-Packard Enterprise
 
