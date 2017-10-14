@@ -13,12 +13,16 @@ C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 ### Skills
 
 + C++
++ Boost
++ STL
 + Python
 + JavaScript
++ Django
++ Flask
++ SQLite
 + Shell
 + Git
 + Scrum
-
 
 ### Experience
 
