@@ -1,13 +1,13 @@
 Michał Michalski
 ====================
-Software Engineer
+C++/Python Software Developer
 --------------------
 
 [Wrocław, Poland](https://goo.gl/maps/AB7o5ebMKSG2)  
 [buyuk.dev@gmail.com](mailto:buyuk.dev@gmail.com)  
 [buyuk-dev.com](http://buyuk-dev.com)
 
-*Software developer with 3++ years of professional experience with software architecture,
+*Software developer with 4++ years of professional experience with software architecture,
 C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 
 ### Skills
@@ -18,47 +18,59 @@ C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 + Bash
 + Flask
 + Django
-+ SQLite
 + Git
 + Scrum
 
 ### Experience
 
-#### 03.2017 - PRESENT Sii
+#### 03.2017 - PRESENT Nokia
 
 *Software Engineer @Nokia*
 
-Development and maintenance of LTE base station software in modern C++(11 and 14) and Python;
++ Development of LTE Base Station software in modern C++.
++ Writing unit tests with Google Test library.
++ Writing system component tests with TTCN3 language.
++ Developing utilities in Python.
++ Code reviewer.
++ Created web application in Python/Flask/SQLite to collect statistics from Fisheye/Crucible.
++ Participated in SCRUM training.
++ Participated in AngularJS 2.0 training.
 
 #### 02.2016 - 02.2017 Hewlett-Packard Enterprise
 
 *Designer / Backend C++ Developer @Sabre*
 
-Development and maintenance of one of the best solutions for airline reservation systems in the market.
++ Developing features for sabre's airlines reservation system in C++03.
++ Writing unit tests with Google Test library.
++ Participating in SCRUM events.
++ Developing utility scripts in Python.
++ Supporting Informatica processing system for RollceRoyce.
 
 #### 06.2014 - 02.2016 Zylia
 
-*C++ Developer @Zenterio*
+*Research & Development Software Engineer*
 
-Development of company’s software platform for set-top-boxes. Working in a remote scrum team on tasks such as implementing new features, maintaining existing code base and integrating implemented features with customers products.
-
-*R&D Software Engineer*
-
-Lead software engineer at company's crucial projects: [AudioImmersion][1] and [AudioSense][2]. I have also helped in the development of state-of-the-art audio encoding technology, which recently become part of MPEG USAC standard.
-
-[1]: http://audioimmersion.pl/
-[2]: http://www.zylia.pl/3d-audiosense.html
++ Development of Zenterio OS (operating system for set-top-box devices) in C++.
++ Writing unit tests in Google Test library.
++ Created web application hosted on AWS in Python/Django/JQuery/Celery.
++ Conducted research on sound processing algorithms and implemented them.
++ Writing multimedia processing pipelines in GStreamer/C++.
++ Participating in SCRUM events.
++ Writing documentation.
 
 *Intern R&D Software Engineer*
 
-I have designed and developed proprietary algorithm for decoding digital watermark from H264 video stream using C++ language with GStreamer multimedia processing framework.
++ Design and implementation of digital watermark decoder for H264 video stream in C++ / Gstreamer.
++ Writing unit tests in Google Test library.
++ Writing documentation.
 
 #### 08.2013 - 12.2013 Serious Impact
 
 *C++ / Java Developer*
 
-Porting 3D ski jumping game from iOS to Android devices. I was responsible for detecting, fixing and testing compatibility issues within cross-platform game engine in C++/Java/Objective-C environment.
-
++ Poriting iOS 3D Ski Jumping game to Android.
++ Writing Java/JNI/C++ code to fix compatibility issues in game engine.
++ Detecting and fixing bugs in rendering.
 
 ### Languages
 
