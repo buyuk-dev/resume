@@ -1,13 +1,13 @@
 Michał Michalski
 ====================
-C++/Python Software Developer
+C++/Python Software Engineer
 --------------------
 
-[Wrocław, Poland](https://goo.gl/maps/AB7o5ebMKSG2)  
+[Warsaw, Poland](https://goo.gl/maps/rGLm8pbEJxH2)
 [buyuk.dev@gmail.com](mailto:buyuk.dev@gmail.com)  
 [buyuk-dev.com](http://buyuk-dev.com)
 
-*Software developer with 4++ years of professional experience with software architecture,
+*Software developer with 5++ years of professional experience with software architecture,
 C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 
 ### Skills
@@ -16,14 +16,20 @@ C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 + Python
 + JavaScript
 + Bash
-+ Flask
-+ Django
 + Git
 + Scrum
 
 ### Experience
 
-#### 03.2017 - PRESENT Nokia
+#### 09.2018 - PRESENT Samsung Research and Development
+
++ Tizen WebAPI development (C++ / JavaScript / Python). 
++ 2nd place at internal Samsung Bixby App Hackathon. 
++ Optimization of time of flight depth sensor software in a flagship smartphone model. 
++ Workflow automation in Python / Bash.
++ Contributing to open source project (Tizen).
+
+#### 03.2017 - 08.2018 Nokia
 
 *Software Engineer @Nokia*
 
@@ -81,3 +87,7 @@ C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 
 + artificial intelligence
 + climbing, playing violin
+
+*I hereby give consent for my personal data included in my application to be processed
+for the purposes of the recruitment process under the Personal Data Protection Act as 
+of 29 August 1997, consolidated text: Journal of Laws 2016, item 922 as amended.*
