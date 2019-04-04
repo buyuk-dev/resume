@@ -3,9 +3,9 @@ Michał Michalski
 C++/Python Software Engineer
 --------------------
 
-[Warsaw, Poland](https://goo.gl/maps/rGLm8pbEJxH2)
-[buyuk.dev@gmail.com](mailto:buyuk.dev@gmail.com)  
-[buyuk-dev.com](http://buyuk-dev.com)
++ [Warsaw, Poland](https://goo.gl/maps/rGLm8pbEJxH2)
++ [buyuk.dev@gmail.com](mailto:buyuk.dev@gmail.com)
++ [buyuk-dev.com](http://buyuk-dev.com)
 
 *Software developer with 5++ years of professional experience with software architecture,
 C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
