@@ -33,12 +33,11 @@ C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 
 *Software Engineer @Nokia*
 
-+ Development of LTE Base Station software in modern C++.
-+ Writing unit tests with Google Test library.
++ Development of LTE Base Station software in C++.
 + Writing system component tests with TTCN3 language.
-+ Developing utilities in Python.
-+ Code reviewer.
-+ Created web application in Python/Flask/SQLite to collect statistics from Fisheye/Crucible.
++ Workflow automation Python / Bash.
++ Code reviewers team member.
++ Full stack web application development using Flask/SQLite and Crucible/Fisheye API.
 + Participated in SCRUM training.
 + Participated in AngularJS 2.0 training.
 
@@ -46,29 +45,22 @@ C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 
 *Designer / Backend C++ Developer @Sabre*
 
-+ Developing features for sabre's airlines reservation system in C++03.
-+ Writing unit tests with Google Test library.
-+ Participating in SCRUM events.
-+ Developing utility scripts in Python.
++ Development of airlines reservation system in C++. 
++ Workflow automation in Python / Bash.
 + Supporting Informatica processing system for RollceRoyce.
 
 #### 06.2014 - 02.2016 Zylia
 
 *Research & Development Software Engineer*
 
-+ Development of Zenterio OS (operating system for set-top-box devices) in C++.
-+ Writing unit tests in Google Test library.
-+ Created web application hosted on AWS in Python/Django/JQuery/Celery.
++ Set-top-box operating system development in C++ (Zenterio OS). 
++ Full stack web application development using Django/JQuery/Celery on AWS.
 + Conducted research on sound processing algorithms and implemented them.
 + Writing multimedia processing pipelines in GStreamer/C++.
-+ Participating in SCRUM events.
-+ Writing documentation.
 
 *Intern R&D Software Engineer*
 
 + Design and implementation of digital watermark decoder for H264 video stream in C++ / Gstreamer.
-+ Writing unit tests in Google Test library.
-+ Writing documentation.
 
 #### 08.2013 - 12.2013 Serious Impact
 
