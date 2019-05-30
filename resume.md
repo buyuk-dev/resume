@@ -23,11 +23,12 @@ C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 
 #### 09.2018 - PRESENT Samsung Research and Development
 
-+ Tizen WebAPI development (C++ / JavaScript / Python). 
-+ 2nd place at internal Samsung Bixby App Hackathon. 
-+ Optimization of time of flight depth sensor software in a flagship smartphone model. 
+*Software Engineer @Samsung*
+
++ Tizen WebAPI development (C++ / JavaScript / Python).
++ 2nd place at internal Samsung Bixby App Hackathon.
++ Optimization of ToF depth sensor software.
 + Workflow automation in Python / Bash.
-+ Contributing to open source project (Tizen).
 
 #### 03.2017 - 08.2018 Nokia
 
