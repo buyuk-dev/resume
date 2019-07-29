@@ -12,7 +12,7 @@ C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 
 ### Skills
 
-C++, Python, JavaScript Bash, Git, Scrum
+C++, Python, JavaScript, Bash, Linux, Git, Scrum
 
 ### Experience
 
@@ -32,7 +32,7 @@ C++, Python, JavaScript Bash, Git, Scrum
 *Software Engineer @Nokia*
 
 + Development of LTE Base Station software in C++.
-+ Writing system component tests with TTCN3 language.
++ Creating system component tests with TTCN3 language.
 + Workflow automation Python / Bash.
 + Member of the code reviewers group.
 + Full stack web application development using Flask/SQLite and Crucible/Fisheye API.
@@ -65,8 +65,7 @@ C++, Python, JavaScript Bash, Git, Scrum
 *C++ / Java Developer*
 
 + Poriting iOS 3D Ski Jumping game to Android.
-+ Writing Java/JNI/C++ code to fix compatibility issues in game engine.
-+ Detecting and fixing bugs in rendering.
++ Cross platform game engine development with Java/C++/JNI
 
 ### Languages
 
@@ -75,7 +74,7 @@ C++, Python, JavaScript Bash, Git, Scrum
 
 ### Interests
 
-+ artificial intelligence
++ artificial intelligence, neuroscience
 + climbing, playing violin
 
 *I hereby give consent for my personal data included in my application to be processed
