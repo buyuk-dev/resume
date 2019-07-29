@@ -27,8 +27,10 @@ C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 
 + Tizen WebAPI development (C++ / JavaScript / Python).
 + 2nd place at internal Samsung Bixby App Hackathon.
-+ Optimization of ToF depth sensor software.
-+ Workflow automation in Python / Bash.
++ Optimization of ToF depth sensor software for the flagship smartphones.
++ Created and improved multiple automation tools to simplify workflow.
+* Introduced unit tests to a previously untested code base.
+* Recently took ownership of a media controller submodule.
 
 #### 03.2017 - 08.2018 Nokia
 
@@ -37,7 +39,7 @@ C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 + Development of LTE Base Station software in C++.
 + Writing system component tests with TTCN3 language.
 + Workflow automation Python / Bash.
-+ Code reviewers team member.
++ Member of the code reviewers group.
 + Full stack web application development using Flask/SQLite and Crucible/Fisheye API.
 + Participated in SCRUM training.
 + Participated in AngularJS 2.0 training.
