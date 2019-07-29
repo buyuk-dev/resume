@@ -12,12 +12,7 @@ C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 
 ### Skills
 
-+ C++
-+ Python
-+ JavaScript
-+ Bash
-+ Git
-+ Scrum
+C++, Python, JavaScript Bash, Git, Scrum
 
 ### Experience
 
