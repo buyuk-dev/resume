@@ -1,13 +1,13 @@
 Michał Michalski
 ====================
-C++/Python Software Engineer
+R&D Software Engineer
 --------------------
 
-+ [Warsaw, Poland](https://goo.gl/maps/rGLm8pbEJxH2)
++ [Poznań, Poland](https://goo.gl/maps/rGLm8pbEJxH2)
 + [buyuk.dev@gmail.com](mailto:buyuk.dev@gmail.com)
 + [buyuk-dev.com](http://buyuk-dev.com)
 
-*Software developer with 5++ years of professional experience with software architecture,
+*Software developer with 6++ years of professional experience with software architecture,
 C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
 
 ### Skills
@@ -16,7 +16,7 @@ C++, Python, JavaScript, Bash, Linux, Git, Scrum
 
 ### Experience
 
-#### 09.2018 - PRESENT Samsung Research and Development
+#### 09.2018 - 06.2020 Samsung Research and Development
 
 *Software Engineer @Samsung*
 
@@ -26,6 +26,7 @@ C++, Python, JavaScript, Bash, Linux, Git, Scrum
 + Created and improved multiple automation tools to simplify workflow.
 + Introduced unit tests to a previously untested code base.
 + Recently took ownership of a media controller submodule.
++ Developed documentation management system for Web APIs.
 
 #### 03.2017 - 08.2018 Nokia
 
@@ -77,6 +78,4 @@ C++, Python, JavaScript, Bash, Linux, Git, Scrum
 + artificial intelligence, neuroscience
 + climbing, playing violin
 
-*I hereby give consent for my personal data included in my application to be processed
-for the purposes of the recruitment process under the Personal Data Protection Act as 
-of 29 August 1997, consolidated text: Journal of Laws 2016, item 922 as amended.*
+*I hereby consent to my personal data being processed by <COMPANY> for the purpose of considering my application for the vacancy advertised under reference number <REFNO>*
