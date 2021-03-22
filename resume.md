@@ -1,20 +1,21 @@
-Michał Michalski
-====================
-R&D Software Engineer
---------------------
+## Michał Michalski
 
-+ [Poznań, Poland](https://goo.gl/maps/rGLm8pbEJxH2)
-+ [buyuk.dev@gmail.com](mailto:buyuk.dev@gmail.com)
-+ [buyuk-dev.com](http://buyuk-dev.com)
+### Senior C++/Python Software Engineer
 
-*Software developer with 6++ years of professional experience with software architecture,
-C++, Python, JavaScript, algorithms design and more. Beautiful code lover.*
+[Amsterdam, Netherlands][1] | [michal@buyuk-dev.com][2] | [buyuk-dev.com][3]
 
-### Skills
-
+Software developer with **6++ years** of professional experience with software development.<br/>
 C++, Python, JavaScript, Bash, Linux, Git, Scrum
 
 ### Experience
+
+#### 08.2020 ActiveVideo Engineering
+
+*Senior Software Egnineer*
+
++ Developing AppCloud backend
++ Improving existing code base quality through testing and refactoring.
++ C++, Python, MPEG, HLS, DASH, ElasticSearch, AWS, Docker
 
 #### 09.2018 - 06.2020 Samsung Research and Development
 
@@ -25,8 +26,8 @@ C++, Python, JavaScript, Bash, Linux, Git, Scrum
 + Optimization of ToF depth sensor software for the flagship smartphones.
 + Created and improved multiple automation tools to simplify workflow.
 + Introduced unit tests to a previously untested code base.
-+ Recently took ownership of a media controller submodule.
-+ Developed documentation management system for Web APIs.
++ Owner of a media controller submodule.
++ Designed and developed EWIDL documentation management system.
 
 #### 03.2017 - 08.2018 Nokia
 
@@ -78,4 +79,6 @@ C++, Python, JavaScript, Bash, Linux, Git, Scrum
 + artificial intelligence, neuroscience
 + climbing, playing violin
 
-*I hereby consent to my personal data being processed by <COMPANY> for the purpose of considering my application for the vacancy advertised under reference number <REFNO>*
+[1]: https://goo.gl/maps/Zy4H6W4LHtzMSdVF6
+[2]: mailto:michal@buyuk-dev.com
+[3]: https://buyuk-dev.com
