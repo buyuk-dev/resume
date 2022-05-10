@@ -14,7 +14,7 @@ Software developer with **8++ years** of professional experience with software d
 
 *Senior Software Egnineer*
 
-+ Developing AppCloud backend
++ Developing AppCloud backend.
 + Improving existing code base quality through testing and refactoring.
 + C++, Python, MPEG, HLS, DASH, ElasticSearch, AWS, Docker
 
@@ -78,8 +78,9 @@ Software developer with **8++ years** of professional experience with software d
 
 ### Interests
 
-+ artificial intelligence, neuroscience
-+ climbing, playing violin
+Professional: algorithm design, code refactoring
+
+Personal: neuroscience, climbing, violin
 
 [1]: https://goo.gl/maps/qAdy1uoFEL4WnwPM6
 [2]: mailto:michal@buyuk-dev.com
