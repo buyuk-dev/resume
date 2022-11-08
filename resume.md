@@ -4,13 +4,30 @@
 
 [Poznań, Poland][1] | [michal@buyuk-dev.com][2] | [buyuk-dev.com][3] | [+48 514 954 985][4]
 
-Software developer with **8++ years** of professional experience with software development.
+### Summary
+
+Senior Software Engineer with more than 8 years of commercial experience in software development.
+Has solid expertise in Python, JavaScript, and C++.
+Creative and helpful team player with problem-solving skills.
+Motivated to cope with challenging tasks and make a valuable contribution to a new team.
 
 { C++ 5/5, Python 4/5, JavaScript 2/5, Bash 3/5, Linux 4/5, Git 5/5, Scrum 5/5 }
 
 ### Experience
 
-#### 08.2020 - 08.2021 ActiveVideo
+#### 08.2022 Pix4D
+
+*Senior Python Engineer*
+
++ Building scalable and robust systems based on the latest technologies
++ Integrating with third party systems
++ Cooperation and communication inside the team and with key stakeholders
++ Contribute to the daily operations of the production environment such as monitoring and technical support
++ Automating repetitive tasks such as generating monthly finance reports
++ Onboarding new colleagues and helping less experienced colleagues complete assignments
++ { Python, Django, AWS, Postgresql, HubSpot CRM }
+
+#### 08.2020 - 09.2021 ActiveVideo Engineering
 
 *Senior Software Egnineer*
 
