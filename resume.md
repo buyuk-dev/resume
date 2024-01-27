@@ -15,9 +15,9 @@ Motivated to cope with challenging tasks and make a valuable contribution to a n
 
 ### Experience
 
-#### 01.2023 - 02.2024 P&P Solutions (Contractor)
+#### 01.2023 - 02.2024 P&P Solutions
 
-*Senior Software Engineering*
+*Senior Software Engineering (contract)*
 
 + Development and maintenance of a complex optimization engine for a large customer from airline industry
 + Modified existing optimization algorithm by adding advanced features, improving efficiency and effectiveness
@@ -31,7 +31,7 @@ Motivated to cope with challenging tasks and make a valuable contribution to a n
 
 #### 08.2020 - 09.2021 ActiveVideo Engineering
 
-*Senior Software Egnineer*
+*Senior Software Egnineer (fte)*
 
 + Developing [AppCloud][6] backend
 + Writing tests
@@ -40,7 +40,7 @@ Motivated to cope with challenging tasks and make a valuable contribution to a n
 
 #### 09.2018 - 06.2020 Samsung Research and Development
 
-*Software Engineer @Samsung*
+*Software Engineer (contract)*
 
 + Tizen WebAPI development [open source code][5]
 + MediaController module owner
@@ -53,7 +53,7 @@ Motivated to cope with challenging tasks and make a valuable contribution to a n
 
 #### 03.2017 - 08.2018 Nokia
 
-*Software Engineer @Nokia*
+*Software Engineer (contract)*
 
 + Development of LTE Base Station software
 + Creating system component tests
@@ -65,7 +65,7 @@ Motivated to cope with challenging tasks and make a valuable contribution to a n
 
 #### 02.2016 - 02.2017 Hewlett-Packard Enterprise
 
-*Designer / Backend C++ Developer @Sabre*
+*Designer / Backend C++ Developer (fte)*
 
 + Development of airlines reservation system
 + Workflow automation
@@ -74,7 +74,7 @@ Motivated to cope with challenging tasks and make a valuable contribution to a n
 
 #### 06.2014 - 02.2016 Zylia
 
-*Research & Development Software Engineer*
+*Research & Development Software Engineer (fte)*
 
 + Set-top-box operating system development (Zenterio OS)
 + Web application development
@@ -82,7 +82,7 @@ Motivated to cope with challenging tasks and make a valuable contribution to a n
 + Writing multimedia processing pipelines
 + { C++11, googletest, Python, Django, JavaScript, JQuery, Celery, AWS, NumPy, Matplotlib, GStreamer }
 
-*Intern R&D Software Engineer*
+*R&D Software Engineer (intern)*
 
 + Design and implementation of digital watermark decoder for H264 video stream
 + { C++11, GStreamer }
