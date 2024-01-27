@@ -6,10 +6,10 @@
 
 ### Summary
 
-Senior Software Engineer with 10++ years of commercial experience in software development.
+Senior Software Engineer with 10++ years of commercial experience.
 Expert in C++ and Python, proficient with C# and JavaScript.
-Creative and helpful team player with problem-solving skills.
-Motivated to cope with challenging tasks and make a valuable contribution to a new team.
+Creative and helpful team player with solid problem-solving skills.
+Motivated to make valuable contributions to the team.
 
 { C++, Python, C#, JavaScript, Bash, Linux, Windows, Git, Scrum, AWS, Azure }
 
@@ -33,9 +33,9 @@ Motivated to cope with challenging tasks and make a valuable contribution to a n
 
 *Senior Software Egnineer (fte)*
 
-+ Developing [AppCloud][6] backend
-+ Writing tests
-+ Developing tool for retrieving session logs
++ Developing [AppCloud][6] service backend for remotely running streaming apps on settopbox devices
++ Workflow automation
++ Developed end-to-end test framework
 + { C++, googletest, PyTest, Python, ElasticSearch }
 
 #### 09.2018 - 06.2020 Samsung Research and Development
