@@ -6,8 +6,8 @@
 
 ### Summary
 
-Senior Software Engineer with more than 8 years of commercial experience in software development.
-Has solid expertise in Python, JavaScript, and C++.
+Senior Software Engineer with 10++ years of commercial experience in software development.
+Expert in C++ and Python, proficient with C# and JavaScript
 Creative and helpful team player with problem-solving skills.
 Motivated to cope with challenging tasks and make a valuable contribution to a new team.
 
@@ -26,6 +26,8 @@ Motivated to cope with challenging tasks and make a valuable contribution to a n
 + Drove code quality improvements, establishing Clang Format and Clang Tidy for standardized coding practices
 + Project details withheld due to confidentiality agreement
 + { C++17, Python, Visual Studio, Windows, Linux, Cmake, Boost }
+
+#### 10.2021 - 12.2022 Career Break (newborn son)
 
 #### 08.2020 - 09.2021 ActiveVideo Engineering
 
