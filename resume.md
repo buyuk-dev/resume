@@ -11,95 +11,84 @@ Has solid expertise in Python, JavaScript, and C++.
 Creative and helpful team player with problem-solving skills.
 Motivated to cope with challenging tasks and make a valuable contribution to a new team.
 
-{ C++ 5/5, Python 4/5, JavaScript 2/5, Bash 3/5, Linux 4/5, Git 5/5, Scrum 5/5 }
+{ C++, Python, C#, JavaScript, Bash, Linux, Windows, Git, Scrum, AWS, Azure }
 
 ### Experience
 
-#### 08.2022 Pix4D
+#### 01.2023 - 02.2024 P&P Solutions (Contractor)
 
-*Senior Python Engineer*
+*Senior Software Engineering*
 
-+ Building scalable and robust systems based on the latest technologies
-+ Integrating with third party systems
-+ Cooperation and communication inside the team and with key stakeholders
-+ Contribute to the daily operations of the production environment such as monitoring and technical support
-+ Automating repetitive tasks such as generating monthly finance reports
-+ Onboarding new colleagues and helping less experienced colleagues complete assignments
-+ { Python, Django, AWS, Postgresql, HubSpot CRM }
++ Development and maintenance of a complex optimization engine for a large customer from airline industry
++ Modified existing optimization algorithm by adding advanced features, improving efficiency and effectiveness
++ Initiated the development of a metaheuristic alternative approach to the algorithm
++ Introduced a Python/Pytest framework for robust end-to-end testing, ensuring application reliability
++ Drove code quality improvements, establishing Clang Format and Clang Tidy for standardized coding practices
++ Project details withheld due to confidentiality agreement
++ { C++17, Python, Visual Studio, Windows, Linux, Cmake, Boost }
 
 #### 08.2020 - 09.2021 ActiveVideo Engineering
 
 *Senior Software Egnineer*
 
-+ Developing [AppCloud][6] backend { C++ }
-+ Writing tests { googletest, pytest }
-+ Developing tool for retrieving session logs { Python, ElasticSearch }
++ Developing [AppCloud][6] backend
++ Writing tests
++ Developing tool for retrieving session logs
++ { C++, googletest, PyTest, Python, ElasticSearch }
 
 #### 09.2018 - 06.2020 Samsung Research and Development
 
 *Software Engineer @Samsung*
 
-+ Tizen WebAPI development [open source code][5] { C++, JavaScript ES5 }
-+ MediaController module owner { collecting requirements, demo apps, API design }
-+ Adding unit tests to untested code base { googletest, Mocha, Chai }
-+ Automating common tasks { Python, JIRA, Bash }
-+ Published [whitepaper describing EWIDL][7] { Python, C++, WebIDL, Doxygen }
-+ ToF depth sensor optimization for flagship smartphone { C++, OpenCL }
-+ 2nd place at Samsung Bixby Capsule hackathon { JavaScript, Bixby }
++ Tizen WebAPI development [open source code][5]
++ MediaController module owner
++ Adding unit tests to untested code base
++ Automating common tasks
++ Published [whitepaper describing EWIDL][7]
++ ToF depth sensor optimization for flagship smartphone
++ 2nd place at Samsung Bixby Capsule hackathon
++ { C++, JavaScript ES5, Python, WebIDL, Doxygen, API design, googletest, Mocha, Chai, JIRA, Bash, OpenCL, Bixby }
 
 #### 03.2017 - 08.2018 Nokia
 
 *Software Engineer @Nokia*
 
-+ Development of LTE Base Station software { C++17, STL, Boost, googletest }
-+ Creating system component tests { TTCN3 }
-+ Workflow automation { Python, Bash }
-+ Member of the code reviewers group.
-+ Web application development { Python, Flask, SQLite, SQLAlchemy, Crucible/Fisheye }
-+ Participated in SCRUM training.
++ Development of LTE Base Station software
++ Creating system component tests
++ Workflow automation
++ Member of the code reviewers group
++ Web application development
++ Participated in SCRUM training
++ { C++17, Python, Bash, STL, Boost, googletest, TTCN3, Flask, SQLite, SQLAlchemy, Crucible/Fisheye }
 
 #### 02.2016 - 02.2017 Hewlett-Packard Enterprise
 
 *Designer / Backend C++ Developer @Sabre*
 
-+ Development of airlines reservation system { C++03, googletest }
-+ Workflow automation in { Python, Bash }
-+ Supporting big data processing system for RollceRoyce { Informatica }
++ Development of airlines reservation system
++ Workflow automation
++ Supporting big data processing system for RollceRoyce
++ { C++03, googletest, Python, Bash, Informatica }
 
 #### 06.2014 - 02.2016 Zylia
 
 *Research & Development Software Engineer*
 
-+ Set-top-box operating system development (Zenterio OS) { C++11, googletest }
-+ Web application development { Python, Django, JavaScript, JQuery, Celery, AWS }
-+ R&D on sound processing algorithms { Python, NumPy, Matplotlib }
-+ Writing multimedia processing pipelines in { C++11, GStreamer }
++ Set-top-box operating system development (Zenterio OS)
++ Web application development
++ R&D on sound processing algorithms
++ Writing multimedia processing pipelines
++ { C++11, googletest, Python, Django, JavaScript, JQuery, Celery, AWS, NumPy, Matplotlib, GStreamer }
 
 *Intern R&D Software Engineer*
 
-+ Design and implementation of digital watermark decoder for H264 video stream in { C++11, GStreamer }
-
-#### 08.2013 - 12.2013 Serious Impact
-
-*C++ / Java Developer*
-
-+ Poriting iOS 3D Ski Jumping game to Android { Java, JNI, C++, OpenGL ES 2.0 }
-
-### Education
-
-#### 2012 - ... Poznań University of Technology ( Computer Science )
-
-+ Currently working on my BSc thesis
-
-### Languages
-
-+ Polish (native proficiency)
-+ English (full professional proficiency)
++ Design and implementation of digital watermark decoder for H264 video stream
++ { C++11, GStreamer }
 
 ### Interests
 
-* Professional: clean code, problem solving, algorihtms design
-* Personal: neuroscience, climbing, violin
+* Professional: Software Architecture, Clean Code, Ariticial Intelligence
+* Personal: Neuroscience, Climbing, Violin
 
 [1]: https://goo.gl/maps/qAdy1uoFEL4WnwPM6
 [2]: mailto:michal@buyuk-dev.com
