@@ -7,7 +7,7 @@
 ### Summary
 
 Senior Software Engineer with 10++ years of commercial experience in software development.
-Expert in C++ and Python, proficient with C# and JavaScript
+Expert in C++ and Python, proficient with C# and JavaScript.
 Creative and helpful team player with problem-solving skills.
 Motivated to cope with challenging tasks and make a valuable contribution to a new team.
 
