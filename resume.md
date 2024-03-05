@@ -2,18 +2,29 @@
 
 ### Senior C++/Python Software Engineer
 
-[Poznań, Poland][1] | [michal@buyuk-dev.com][2] | [buyuk-dev.com][3] | [+48 514 954 985][4]
+[Poznań, Poland][1] | [michal@buyuk-dev.com][2] | [buyuk-dev.com][3] | [+48 514 954 985][4] | [Calendar][5]
 
 ### Summary
 
-Senior Software Engineer with 10++ years of commercial experience.
+Senior Software Engineer with 10++ years of commercial experience in software development.
 Expert in C++ and Python, proficient with C# and JavaScript.
-Creative and helpful team player with solid problem-solving skills.
-Motivated to make valuable contributions to the team.
+Creative and helpful team player with problem-solving skills.
 
 { C++, Python, C#, JavaScript, Bash, Linux, Windows, Git, Scrum, AWS, Azure }
 
 ### Experience
+
+#### 05.2023 - Present Microsoft
+
+*Software Engineer II (fte)*
+
++ Developing large scale distributed cloud data processing system
++ Leading daily live site monitoring for the service
++ Participating in service on-call rotation duty supporting incidents
++ Mentoring new team members as an onboarding buddy
++ Improving and extending system design, implementing new features, debugging and fixing code
++ Engaged in a ChatGPT and Azure OpenAI Studio side project
++ { C#, Azure, ServiceFabric, Kusto, CosmosDB, EventHubs, ADLSGen2, ChatGPT, Azure AI Services }
 
 #### 01.2023 - 02.2024 P&P Solutions
 
@@ -24,7 +35,6 @@ Motivated to make valuable contributions to the team.
 + Initiated the development of a metaheuristic alternative approach to the algorithm
 + Introduced a Python/Pytest framework for robust end-to-end testing, ensuring application reliability
 + Drove code quality improvements, establishing Clang Format and Clang Tidy for standardized coding practices
-+ Project details withheld due to confidentiality agreement
 + { C++17, Python, Visual Studio, Windows, Linux, Cmake, Boost }
 
 #### 10.2021 - 12.2022 Career Break (newborn son)
@@ -33,20 +43,20 @@ Motivated to make valuable contributions to the team.
 
 *Senior Software Egnineer (fte)*
 
-+ Developing [AppCloud][6] service backend for remotely running streaming apps on settopbox devices
-+ Workflow automation
-+ Developed end-to-end test framework
++ [AppCloud][7]: Service for remotely running streaming apps in the cloud
++ Developing http proxy server for remotely rendering OpenGL commands
++ Developing end-to-end test framework
 + { C++, googletest, PyTest, Python, ElasticSearch }
 
 #### 09.2018 - 06.2020 Samsung Research and Development
 
 *Software Engineer (contract)*
 
-+ Tizen WebAPI development [open source code][5]
++ Tizen WebAPI development [open source code][6]
 + MediaController module owner
 + Adding unit tests to untested code base
 + Automating common tasks
-+ Published [whitepaper describing EWIDL][7]
++ Published [whitepaper describing EWIDL][8]
 + ToF depth sensor optimization for flagship smartphone
 + 2nd place at Samsung Bixby Capsule hackathon
 + { C++, JavaScript ES5, Python, WebIDL, Doxygen, API design, googletest, Mocha, Chai, JIRA, Bash, OpenCL, Bixby }
@@ -89,14 +99,15 @@ Motivated to make valuable contributions to the team.
 
 ### Interests
 
-* Professional: Software Architecture, Clean Code, Ariticial Intelligence
-* Personal: Neuroscience, Climbing, Violin
+* Professional: LLMs and their applications, clean code, software architecture
+* Personal: neuroscience, climbing, violin
 
 [1]: https://goo.gl/maps/qAdy1uoFEL4WnwPM6
 [2]: mailto:michal@buyuk-dev.com
 [3]: https://buyuk-dev.com
 [4]: tel:+48514954985
+[5]: https://calendly.com/buyuk
 
-[5]: https://review.tizen.org/git/?p=platform%2Fcore%2Fapi%2Fwebapi-plugins.git&a=search&h=refs%2Fheads%2Ftizen&st=author&s=Michal+Michalski
-[6]: https://www.activevideo.com/appcloud
-[7]: https://ieeexplore.ieee.org/document/9240696
+[6]: https://review.tizen.org/git/?p=platform%2Fcore%2Fapi%2Fwebapi-plugins.git&a=search&h=refs%2Fheads%2Ftizen&st=author&s=Michal+Michalski
+[7]: https://www.activevideo.com/appcloud
+[8]: https://ieeexplore.ieee.org/document/9240696
