@@ -42,3 +42,11 @@ jobs:
           git add MichalskiMichal.pdf
           git commit -m "Update pdf version;" || echo "No changes to commit"
           git push
+
+      - name: Trigger resume update on buyuk-dev.com
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: token ${{ secrets.TRIGGER_WEBSITE_UPDATE }}" \
+            "https://api.github.com/repos/buyuk-dev/buyuk-dev.github.io/dispatches" \
+            -d '{"event_type": "pdf_built_event"}'
