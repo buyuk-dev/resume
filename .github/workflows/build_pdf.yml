@@ -48,9 +48,9 @@ jobs:
 
       - name: Trigger resume update on buyuk-dev.com
         env:
-          secret_token: "Hello, world"
+          secret_token: ${{ secrets.TRIGGER_WEBSITE_UPDATE }}
         run: |
-          echo secret_token
+          echo "${secret_token:0:20}
           curl -X POST \
             -H "Accept: application/vnd.github.v3+json" \
             -H "Authorization: token $secret_token" \
