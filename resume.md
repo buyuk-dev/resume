@@ -14,7 +14,7 @@ Creative and helpful team player with problem-solving skills.
 
 ### Experience
 
-#### 05.2023 - Present Microsoft
+#### 05.2023 Microsoft
 
 *Software Engineer II (fte)*
 
