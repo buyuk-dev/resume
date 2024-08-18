@@ -14,6 +14,17 @@ Creative and helpful team player with great problem-solving skills.
 
 ### Experience
 
+#### 05.2023 - Present Fractile (fractile.io)
+
+*Cofounder & CTO*
+
++ Spearheading the technical vision and development of advanced AI agent systems.
++ Successfully obtained first 3 B2B customers within the first 3 months.
++ Leading advanced research & development in AI agents, driving innovation and product improvements.
++ Collaborating with stakeholders to align the technical roadmap with business goals.
++ Overseeing team of engineers and guiding technical aspects of product development.
++ { AI, Machine Learning, Python, Cloud Services, B2B, Technical Leadership }
+
 #### 05.2023 Microsoft
 
 *Software Engineer II (fte)*
