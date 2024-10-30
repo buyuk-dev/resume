@@ -6,7 +6,7 @@
 
 ### Summary
 
-Senior Software Engineer with 10++ years of commercial experience in software development.
+Senior Software Engineer with 12++ years of commercial experience in software development.
 Expert in C++ and Python, proficient with C# and JavaScript.
 Creative and helpful team player with great problem-solving skills.
 
@@ -14,7 +14,18 @@ Creative and helpful team player with great problem-solving skills.
 
 ### Experience
 
-#### 05.2023 Microsoft
+#### 05.2024 Fractile sp. z o.o.
+
+*Cofounder & CTO / Lead Developer*
+
++ Designed and built state-of-the-art [agentic AI platform][9] for small-to-medium B2B customers.
++ Developed REST API for managing AI agents.
++ Built frontend web application for chatting with agents and managing their workflows.
++ Leading R&D effort to reduce LLM hallucinations and increase Fractile's agents quality.
++ Configuring CI/CD and DevOps pipelines.
++ { LLM, GPT, LangChain, LlamaIndex, Python-3.12, FastAPI, Flask, Vue.js, Docker, K8S, PostgreSQL, Azure }
+
+#### 05.2023 - 06.2024 Microsoft
 
 *Software Engineer II (fte)*
 
@@ -111,3 +122,4 @@ Creative and helpful team player with great problem-solving skills.
 [6]: https://review.tizen.org/git/?p=platform%2Fcore%2Fapi%2Fwebapi-plugins.git&a=search&h=refs%2Fheads%2Ftizen&st=author&s=Michal+Michalski
 [7]: https://www.activevideo.com/appcloud
 [8]: https://ieeexplore.ieee.org/document/9240696
+[9]: https://fractile.io
