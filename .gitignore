@@ -1,2 +1,7 @@
 *.pdf
 !MichalskiMichal.pdf
+
+.wandai
+jobs/
+
+.env

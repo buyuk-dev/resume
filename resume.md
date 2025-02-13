@@ -108,6 +108,12 @@ Creative and helpful team player with great problem-solving skills.
 + Design and implementation of digital watermark decoder for H264 video stream
 + { C++11, GStreamer }
 
+### Education
+
+#### 2012 – 2016 Poznań University of Technology, Computer Science Department
+
+Completed a 3.5-year engineering program at the Poznań University of Technology, gaining knowledge and skills in programming, algorithms, and software engineering. Due to not defending the engineering thesis, the degree remains incomplete.
+
 ### Interests
 
 * Professional: LLMs and their applications, clean code, software architecture
