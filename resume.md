@@ -1,18 +1,25 @@
 ## Michał Michalski
 
-### Senior C++/Python Software Engineer
+### Contact Information
 
-[Poznań, Poland][1] | [michal@buyuk-dev.com][2] | [buyuk-dev.com][3] | [+48 514 954 985][4] | [Calendar][5]
+[Poznań, Poland][1] | [michal@buyuk-dev.com][2] | [buyuk.io][3] | [+48 514 954 985][4] | [Calendar][5]
 
-### Summary
+### Professional Summary
 
-Senior Software Engineer with 12++ years of commercial experience in software development.
-Expert in C++ and Python, proficient with C# and JavaScript.
-Creative and helpful team player with great problem-solving skills.
+Senior Software Engineer with 12++ years of commercial experience in software development. Expert in C++ and Python, proficient with C# and JavaScript. Creative and helpful team player with great problem-solving skills. Interested in LLMs and their applications, emphasizing clean code and software architecture.
 
 { C++, Python, C#, JavaScript, Bash, Linux, Windows, Git, Scrum, AWS, Azure }
 
-### Experience
+### Skills
+
+- Programming Languages: C++, Python, C#, JavaScript
+- Development Tools: Git, Visual Studio, Docker, Kubernetes
+- Frameworks and Libraries: FastAPI, Flask, Boost, LangChain
+- Platforms and Environments: AWS, Azure, Linux, Windows
+- Methodologies: Agile, Scrum, DevOps
+- Other: REST APIs, OpenGL, CI/CD, Cloud Data Processing
+
+### Work Experience
 
 #### 05.2024 Fractile sp. z o.o.
 
@@ -114,10 +121,15 @@ Creative and helpful team player with great problem-solving skills.
 
 Completed a 3.5-year engineering program at the Poznań University of Technology, gaining knowledge and skills in programming, algorithms, and software engineering. Due to not defending the engineering thesis, the degree remains incomplete.
 
-### Interests
+### Certifications and Achievements
 
-* Professional: LLMs and their applications, clean code, software architecture
-* Personal: neuroscience, climbing, violin
+- 2nd place at Samsung Bixby Capsule hackathon
+- Certified Scrum Master (CSM)
+
+### Volunteer Experience
+### Projects
+### Publications
+
 
 [1]: https://goo.gl/maps/qAdy1uoFEL4WnwPM6
 [2]: mailto:michal@buyuk-dev.com

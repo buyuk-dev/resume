@@ -2,6 +2,9 @@
 !MichalskiMichal.pdf
 
 .wandai
-jobs/
 
 .env
+
+cache/
+output/
+jobs/
