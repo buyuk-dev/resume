@@ -27,8 +27,15 @@ jobs:
       - name: Build PDF file from markdown.
         if: true
         run: |
-          sudo apt-get install pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra
-          bash build.sh
+          sudo apt-get update
+          sudo apt-get install -y \
+            pandoc \
+            texlive-xetex \
+            texlive-latex-recommended \
+            texlive-latex-extra \
+            texlive-fonts-recommended
+          # Use fonts available on Ubuntu runners to avoid missing macOS fonts
+          FONT_MAIN="Latin Modern Roman" FONT_SANS="Latin Modern Sans" bash build.sh
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4.3.1
