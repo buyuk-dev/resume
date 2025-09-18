@@ -8,7 +8,7 @@ from pathlib import Path
 from review import review_resume
 from utils import transform_text
 from langchain_openai import AzureChatOpenAI
-from langchain_core.messages import SystemMessage, HumanMessage
+from langchain_core.messages import SystemMessage
 
 # Configure logging
 logging.basicConfig(
@@ -93,21 +93,15 @@ def guided_resolution(comment_text: str, resume_content: str, chat_model: AzureC
     resolution = transform_text(resume_content, resolution_prompt, chat_model)
     return resolution
 
-def review_command(resume_path: Path, output_path: Path, chat_model: AzureChatOpenAI):
-    """ Generate review comments and store them in a JSON file. """
-    # Load the style guide
-    style_guide: dict = json.loads(Path("customizer/prompts/resume_style_guide.json").read_text())
-
-    # Load the resume content
-    resume = resume_path.read_text()
-
-    # Inject current date for context
+def review_resume_interface(resume_content: str, style_guide: dict, chat_model: AzureChatOpenAI) -> dict:
+    """Perform the review and return the results as a dictionary."""
     current_date = datetime.datetime.now().strftime("%Y-%m-%d")
+    style_guide["current_date"] = current_date
 
     # Perform the review
-    review = review_resume(resume, style_guide, chat_model, current_date=current_date)
+    review = review_resume(resume_content, style_guide, chat_model, current_date=current_date)
 
-    # Serialize the review output to JSON
+    # Serialize the review output to JSON-like dictionary
     review_json = {
         "groups": [
             {
@@ -120,66 +114,57 @@ def review_command(resume_path: Path, output_path: Path, chat_model: AzureChatOp
             for group in review.groups
         ]
     }
+    return review_json
 
-    # Save the review to a JSON file
-    output_path.write_text(json.dumps(review_json, indent=4))
-    print(f"Review comments saved to {output_path}")
+def resolve_comments_interface(
+    resume_content: str, review_data: dict, chat_model: AzureChatOpenAI, user_input_callback
+) -> str:
+    """
+    Resolve comments from review data and return the updated resume content.
 
-def resolve_command(resume_path: Path, review_path: Path, chat_model: AzureChatOpenAI):
-    """ Load review comments from JSON file and resolve them. """
-    # Load the resume content
-    resume = resume_path.read_text()
+    Args:
+        resume_content (str): The content of the resume.
+        review_data (dict): The review data containing comments to resolve.
+        chat_model (AzureChatOpenAI): The chat model to assist with transformations.
+        user_input_callback (function): A function to handle user input (replaces direct input calls).
 
-    # Load the review comments
-    review_data = json.loads(review_path.read_text())
-
+    Returns:
+        str: The updated resume content.
+    """
     for group in review_data["groups"]:
         group_name = group["group_name"]
-        print(f"Resolving comments for group: {group_name}")
+        logging.info(f"Resolving comments for group: {group_name}")
 
         for comment in group["comments"]:
-            print(f"Comment: {comment['text']}")
-            print(f"Resolution Type: {comment['resolution_type']}")
+            logging.info(f"Comment: {comment['text']} | Resolution Type: {comment['resolution_type']}")
 
             if comment["resolution_type"] == "automatic":
                 # Apply the transformation automatically
-                resume = transform_text(resume, comment["text"], chat_model)
-                resume_path.write_text(resume)
-                print("Automated transformation applied and saved.")
+                resume_content = transform_text(resume_content, comment["text"], chat_model)
 
             elif comment["resolution_type"] == "manual":
-                # Ask the user what to do
-                user_choice = input("This comment requires manual intervention. Would you like to: \n"
-                                    "1. Apply the change manually \n"
-                                    "2. Let the agent attempt to apply it automatically \n"
-                                    "3. Enter guided resolution mode \n"
-                                    "Enter your choice (1/2/3): ")
+                # Ask the user what to do via the callback
+                user_choice = user_input_callback(
+                    comment["text"],
+                    options=["Apply manually", "Attempt automatically", "Guided resolution"],
+                )
 
-                if user_choice == "1":
-                    print("Please make the change manually, then press any key to continue.")
-                    input()  # Wait for user input
-                elif user_choice == "2":
-                    additional_comment = input("Enter additional context or instructions for the agent (or press Enter to skip): ")
+                if user_choice == "Apply manually":
+                    logging.info("Waiting for user to apply changes manually.")
+                elif user_choice == "Attempt automatically":
+                    additional_context = user_input_callback("Provide additional context (optional):", options=None)
                     transformation_text = comment["text"]
-                    if additional_comment:
-                        transformation_text += f" Additional context: {additional_comment}"
-                    resume = transform_text(resume, transformation_text, chat_model)
-                    resume_path.write_text(resume)
-                    print("Agent attempted transformation and saved.")
-                elif user_choice == "3":
-                    resolution = guided_resolution(comment["text"], resume, chat_model)
+                    if additional_context:
+                        transformation_text += f" Additional context: {additional_context}"
+                    resume_content = transform_text(resume_content, transformation_text, chat_model)
+                elif user_choice == "Guided resolution":
+                    resolution = guided_resolution(comment["text"], resume_content, chat_model)
                     if resolution:
-                        resume = resolution
-                        resume_path.write_text(resume)
-                        print("Guided resolution applied and saved.")
+                        resume_content = resolution
                 else:
-                    print("Invalid choice. Skipping this comment.")
+                    logging.warning("Invalid choice. Skipping comment.")
 
-    print("All changes applied. Review process complete.")
-
-def customize_command():
-    """ Placeholder for future implementation of resume customization. """
-    print("Customize command is not yet implemented.")
+    return resume_content
 
 def main():
     """ Command-line interface for the resume customizer. """
@@ -204,11 +189,32 @@ def main():
     chat_model = get_chat_model()
 
     if args.command == "review":
-        review_command(args.resume, args.output, chat_model)
+        resume_content = args.resume.read_text()
+        style_guide = json.loads(Path("customizer/prompts/resume_style_guide.json").read_text())
+        review_results = review_resume_interface(resume_content, style_guide, chat_model)
+        args.output.write_text(json.dumps(review_results, indent=4))
+        print(f"Review comments saved to {args.output}")
+
     elif args.command == "resolve":
-        resolve_command(args.resume, args.review, chat_model)
+        resume_content = args.resume.read_text()
+        review_data = json.loads(args.review.read_text())
+
+        def cli_user_input_callback(prompt, options):
+            if options:
+                print(prompt)
+                for i, option in enumerate(options, 1):
+                    print(f"{i}. {option}")
+                choice = input("Enter your choice: ")
+                return options[int(choice) - 1] if choice.isdigit() and 1 <= int(choice) <= len(options) else ""
+            else:
+                return input(f"{prompt}: ")
+
+        updated_resume = resolve_comments_interface(resume_content, review_data, chat_model, cli_user_input_callback)
+        args.resume.write_text(updated_resume)
+        print("Resume updated and saved.")
+
     elif args.command == "customize":
-        customize_command()
+        print("Customize command is not yet implemented.")
 
 if __name__ == "__main__":
     main()
