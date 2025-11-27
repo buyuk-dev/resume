@@ -127,9 +127,9 @@ I build AI systems that ship. Currently CTO at \mbox{\href{https://www.intelliro
 \tech{LLM, LangChain, Python, Flask, Prefect, Docker, Redis, PostgreSQL, Azure, Jira API}
 
 \begin{itemize}
-\item Built multi-source LLM‑agent pipeline automating reporting and project insights.
-\item Unified ERP/CRM/PM ingestion with Prefect flows, Redis, and Azure.
-\item Shipped LangChain + Flask services cutting manual report prep for PMs.
+\item Built LLM-agent pipelines automating project reporting and engineering insights.
+\item Shipped LangChain / Prefect / Flask services that cut manual report prep for PMs.
+\item Advised leadership on AI tools adoption and business impact.
 \end{itemize}
 
 
