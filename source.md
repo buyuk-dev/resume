@@ -88,6 +88,11 @@ header-includes:
       \noindent\begin{minipage}[t]{0.72\textwidth}\textbf{#1}, \textit{#2}\end{minipage}%
       \hfill\begin{minipage}[t]{0.26\textwidth}\raggedleft #3\end{minipage}\\[-0.25em]}
     \newcommand{\tech}[1]{\textcolor{gray}{\footnotesize #1}}
+    % Compact role for Earlier Experience (company, title, dates, description)
+    \newcommand{\rolecompact}[4]{%
+      \noindent\begin{minipage}[t]{0.72\textwidth}\textbf{#1}, \textit{#2}\end{minipage}%
+      \hfill\begin{minipage}[t]{0.26\textwidth}\raggedleft #3\end{minipage}\\[0.1em]%
+      \noindent\textcolor{gray}{\small #4}\\[0.6em]}
     % Education helpers
     \newcommand{\edu}[3]{% university, department, dates
       \needspace{5\baselineskip}%
@@ -154,20 +159,11 @@ I build AI systems that ship. Currently CTO at \mbox{\href{https://www.intelliro
 
 ## Earlier Experience
 
-\role{ActiveVideo Engineering}{Senior Software Engineer}{08.2020 - 09.2021}
-HTTP proxy for remote OpenGL rendering; end-to-end test framework.
-
-\role{Samsung R\&D}{Software Engineer}{09.2018 - 06.2020}
-Tizen WebAPI module lead; EWIDL documentation system; ToF sensor optimization.
-
-\role{Nokia}{Software Engineer}{03.2017 - 08.2018}
-LTE base-station components; workflow automation.
-
-\role{Hewlett-Packard Enterprise}{Backend C++ Developer}{02.2016 - 02.2017}
-Airline reservation systems; Rolls-Royce big-data processing.
-
-\role{Zylia}{R\&D Software Engineer}{06.2014 - 02.2016}
-STB OS components; audio algorithms; H264 watermark decoder.
+\rolecompact{ActiveVideo Engineering}{Senior Software Engineer}{08.2020 - 09.2021}{HTTP proxy for remote OpenGL rendering; end-to-end test framework.}
+\rolecompact{Samsung R\&D}{Software Engineer}{09.2018 - 06.2020}{Tizen WebAPI module lead; EWIDL documentation system; ToF sensor optimization.}
+\rolecompact{Nokia}{Software Engineer}{03.2017 - 08.2018}{LTE base-station components; workflow automation.}
+\rolecompact{Hewlett-Packard Enterprise}{Backend C++ Developer}{02.2016 - 02.2017}{Airline reservation systems; Rolls-Royce big-data processing.}
+\rolecompact{Zylia}{R\&D Software Engineer}{06.2014 - 02.2016}{STB OS components; audio algorithms; H264 watermark decoder.}
 
 
 ## Education

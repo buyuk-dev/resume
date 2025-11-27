@@ -56,20 +56,11 @@ _C++, Python_
 
 ## Earlier Experience
 
-**ActiveVideo Engineering**, Senior Software Engineer (08.2020 - 09.2021)
-HTTP proxy for remote OpenGL rendering; end-to-end test framework.
-
-**Samsung R&D**, Software Engineer (09.2018 - 06.2020)
-Tizen WebAPI module lead; EWIDL documentation system; ToF sensor optimization.
-
-**Nokia**, Software Engineer (03.2017 - 08.2018)
-LTE base-station components; workflow automation.
-
-**Hewlett-Packard Enterprise**, Backend C++ Developer (02.2016 - 02.2017)
-Airline reservation systems; Rolls-Royce big-data processing.
-
-**Zylia**, R&D Software Engineer (06.2014 - 02.2016)
-STB OS components; audio algorithms; H264 watermark decoder.
+**ActiveVideo Engineering**, Senior Software Engineer (08.2020 - 09.2021): HTTP proxy for remote OpenGL rendering; end-to-end test framework.
+**Samsung R&D**, Software Engineer (09.2018 - 06.2020): Tizen WebAPI module lead; EWIDL documentation system; ToF sensor optimization.
+**Nokia**, Software Engineer (03.2017 - 08.2018): LTE base-station components; workflow automation.
+**Hewlett-Packard Enterprise**, Backend C++ Developer (02.2016 - 02.2017): Airline reservation systems; Rolls-Royce big-data processing.
+**Zylia**, R&D Software Engineer (06.2014 - 02.2016): STB OS components; audio algorithms; H264 watermark decoder.
 
 
 ## Education

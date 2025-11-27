@@ -60,6 +60,9 @@ cp resume.pdf MichalskiMichal.pdf
     # Convert \role{Company}{Title}{Dates} to markdown
     s/^\\role\{([^}]*)\}\{([^}]*)\}\{([^}]*)\}/**\1**, \2 (\3)/
 
+    # Convert rolecompact{Company}{Title}{Dates}{Description} to markdown (note: \r is carriage return in ERE)
+    s/^.rolecompact\{([^}]*)\}\{([^}]*)\}\{([^}]*)\}\{([^}]*)\}/**\1**, \2 (\3): \4/
+
     # Convert \edu{Uni}{Dept}{Dates} to markdown
     s/^\\edu\{([^}]*)\}\{([^}]*)\}\{([^}]*)\}/**\1**, \2 (\3)/
 
