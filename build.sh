@@ -17,16 +17,16 @@ pandoc \
   -V sansfont="$FONT_SANS" \
   -V colorlinks=true -V linkcolor=blue \
   -V geometry:margin=1.5cm \
-  -o resume.pdf resume.tex --wrap=preserve 2>/dev/null
+  -o resume.pdf source.md --wrap=preserve 2>/dev/null
 
 cp resume.pdf MichalskiMichal.pdf
 
 # Generate clean markdown for GitHub display
 {
   # Extract header info from YAML frontmatter
-  title=$(grep '^title:' resume.tex | sed 's/title: *"//' | sed 's/"$//')
-  subtitle=$(grep '^subtitle:' resume.tex | sed 's/subtitle: *"//' | sed 's/"$//')
-  author=$(sed -n '/^author:/,/^[a-z]/p' resume.tex | grep -v '^author:' | grep -v '^header' | sed 's/^  //' | head -1)
+  title=$(grep '^title:' source.md | sed 's/title: *"//' | sed 's/"$//')
+  subtitle=$(grep '^subtitle:' source.md | sed 's/subtitle: *"//' | sed 's/"$//')
+  author=$(sed -n '/^author:/,/^[a-z]/p' source.md | grep -v '^author:' | grep -v '^header' | sed 's/^  //' | head -1)
 
   echo "# $title"
   echo "**$subtitle**"
@@ -37,7 +37,7 @@ cp resume.pdf MichalskiMichal.pdf
   echo ""
 
   # Extract skills from pill macros (line starting with \pill, not definitions)
-  skills_line=$(grep '^\\pill' resume.tex | head -1)
+  skills_line=$(grep '^\\pill' source.md | head -1)
   if [ -n "$skills_line" ]; then
     skills=$(echo "$skills_line" | sed -E 's/\\pill[a-z]+\{([^}]*)\}/\1 /g' | tr -s ' ' | sed 's/^ //' | sed 's/ $//' | sed 's/C\\#/C#/g')
     echo "**Skills:** $skills"
@@ -81,7 +81,7 @@ cp resume.pdf MichalskiMichal.pdf
     s/C\\#/C#/g
     s/R\\&D/R\&D/g
 
-  ' resume.tex
+  ' source.md
 
 } > resume.md
 
