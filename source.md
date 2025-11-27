@@ -116,9 +116,10 @@ I build AI systems that ship. Currently CTO at \mbox{\href{https://www.intelliro
 \tech{LLM, LangChain, Python, JavaScript, FastAPI, Redis, PostgreSQL, MongoDB, AWS, Docker, K8s}
 
 \begin{itemize}
-\item Leading \mbox{\href{https://www.intelliroom.ai/}{IntelliRoom}} development - AI Due Diligence platform.
-\item Productizing LLM techniques to improve accuracy and user experience.
-\item Optimizing infrastructure costs (cut AWS spending in half).
+\item Built and own the entire AI stack---agents, pipelines, and core platform---cutting investor due diligence from weeks to days.
+\item Define technical vision and roadmap in collaboration with business stakeholders.
+\item Lead a cross-functional team (backend, frontend, design, QA) while driving AI tooling adoption across the org.
+\item Cut AWS infrastructure costs by 50\%.
 \end{itemize}
 
 
