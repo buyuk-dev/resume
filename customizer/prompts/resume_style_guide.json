@@ -1,0 +1,140 @@
+{
+  "general_principles": [
+    {
+      "group_name": "Clarity and Readability",
+      "guidelines": [
+        "Use concise, professional language.",
+        "Avoid overly verbose or complex sentences.",
+        "Ensure the resume is easy to skim, with key points standing out."
+      ]
+    },
+    {
+      "group_name": "Actionable Content",
+      "guidelines": [
+        "Focus on measurable achievements using action verbs (e.g., 'Led,' 'Developed,' 'Implemented').",
+        "Avoid vague or generic statements like 'Hardworking team player.'"
+      ]
+    },
+    {
+      "group_name": "Consistency",
+      "guidelines": [
+        "Ensure uniform formatting, including font, bullet style, and alignment.",
+        "Use consistent date formats (e.g., 'Jan 2020 – Dec 2021').",
+        "Maintain consistent tone and style throughout."
+      ]
+    },
+    {
+      "group_name": "Professionalism",
+      "guidelines": [
+        "Avoid slang or informal language.",
+        "Use industry-appropriate terminology.",
+        "Humor is acceptable if it is professional and appropriate for the job type (e.g., '12++ years of experience' for software engineers)."
+      ]
+    }
+  ],
+  "section_specific_guidelines": [
+    {
+      "group_name": "Contact Information",
+      "guidelines": [
+        "Include name, professional email, phone number, and LinkedIn profile (optional: GitHub or portfolio link).",
+        "Do not include irrelevant personal details (e.g., marital status, age).",
+        "Ensure this section is at the top of the resume."
+      ]
+    },
+    {
+      "group_name": "Professional Summary",
+      "guidelines": [
+        "Use 2-4 sentences to summarize your career highlights, skills, and goals.",
+        "Avoid clichés and focus on unique value propositions."
+      ]
+    },
+    {
+      "group_name": "Skills",
+      "guidelines": [
+        "List skills in categories (e.g., Programming Languages, Cloud Platforms, Tools).",
+        "Avoid generic skills like 'Microsoft Office' unless specifically relevant to the job.",
+        "Order skills by relevance to the job."
+      ]
+    },
+    {
+      "group_name": "Work Experience",
+      "guidelines": [
+        "Start with the most recent position and list experiences in reverse chronological order.",
+        "For each role, include: job title, company name, location, and dates.",
+        "Highlight measurable achievements and responsibilities using 2-5 bullet points.",
+        "Use action verbs and quantify impact wherever possible (e.g., 'Increased system performance by 30% by optimizing database queries')."
+      ]
+    },
+    {
+      "group_name": "Education",
+      "guidelines": [
+        "Include degree, institution, and graduation year (or expected graduation year).",
+        "Mention honors or relevant coursework if applicable.",
+        "If the degree is incomplete, focus on skills or knowledge gained."
+      ]
+    },
+    {
+      "group_name": "Certifications",
+      "guidelines": [
+        "List relevant certifications and training.",
+        "Include issuing organization and date of completion."
+      ]
+    },
+    {
+      "group_name": "Projects",
+      "guidelines": [
+        "Include notable projects that demonstrate relevant skills.",
+        "Provide a brief description, focusing on outcomes and technologies used."
+      ]
+    },
+    {
+      "group_name": "Volunteer Experience",
+      "guidelines": [
+        "Include only if relevant to the job or demonstrates transferable skills."
+      ]
+    },
+    {
+      "group_name": "Publications",
+      "guidelines": [
+        "Include if relevant to the job or showcase subject matter expertise.",
+        "Provide title, publication name, and date."
+      ]
+    }
+  ],
+  "formatting_tips": [
+    {
+      "group_name": "Formatting Best Practices",
+      "guidelines": [
+        "Keep the resume to 1-2 pages, depending on experience.",
+        "Use clear section headers and consistent spacing.",
+        "Avoid decorative fonts or colors—stick to professional designs."
+      ]
+    }
+  ],
+  "common_issues": [
+    {
+      "group_name": "Overloading with Irrelevant Information",
+      "guidelines": [
+        "Remove outdated or irrelevant roles (e.g., part-time jobs from 10 years ago)."
+      ]
+    },
+    {
+      "group_name": "Redundancy",
+      "guidelines": [
+        "Avoid repeating the same points across multiple sections."
+      ]
+    },
+    {
+      "group_name": "Missing Key Details",
+      "guidelines": [
+        "Ensure every section is complete and includes necessary information (e.g., dates, achievements)."
+      ]
+    },
+    {
+      "group_name": "Speculative Statements",
+      "guidelines": [
+        "Avoid speculative or unsupported claims (e.g., 'Possesses strong leadership qualities' without evidence)."
+      ]
+    }
+  ]
+}

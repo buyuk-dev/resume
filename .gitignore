@@ -1,0 +1,10 @@
+*.pdf
+!MichalskiMichal.pdf
+
+.wandai
+
+.env
+
+cache/
+output/
+jobs/

@@ -1,0 +1,65 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "master" branch
+  push:
+    branches: [ "master" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a set of commands using the runners shell
+      - name: Build PDF file from markdown.
+        if: true
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            pandoc \
+            texlive-xetex \
+            texlive-latex-recommended \
+            texlive-latex-extra \
+            texlive-fonts-recommended
+          # Use fonts available on Ubuntu runners to avoid missing macOS fonts
+          FONT_MAIN="Latin Modern Roman" FONT_SANS="Latin Modern Sans" bash build.sh
+
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v4.3.1
+        if: false
+        with:
+            name: resume_pdf
+            path: MichalskiMichal.pdf
+            
+      - name: Commit PDF to the repository
+        if: true
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Github Action"
+          git add MichalskiMichal.pdf
+          git commit -m "Update pdf version;" || echo "No changes to commit"
+          git push
+
+      # Disabled - no longer syncing resume to blog
+      # - name: Trigger resume update on buyuk-dev.com
+      #   env:
+      #     secret_token: ${{ secrets.TRIGGER_WEBSITE_UPDATE }}
+      #   run: |
+      #     curl -X POST \
+      #       -H "Accept: application/vnd.github.v3+json" \
+      #       -H "Authorization: token $secret_token" \
+      #       "https://api.github.com/repos/buyuk-dev/buyuk-dev.github.io/dispatches" \
+      #       -d '{"event_type": "update_resume_event"}'
