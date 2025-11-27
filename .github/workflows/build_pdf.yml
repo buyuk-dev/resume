@@ -49,8 +49,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Github Action"
-          git add MichalskiMichal.pdf resume.md
-          git commit -m "Update generated files" || echo "No changes to commit"
+          git add MichalskiMichal.pdf
+          git commit -m "Update generated PDF" || echo "No changes to commit"
           git push
 
       # Disabled - no longer syncing resume to blog
