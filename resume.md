@@ -1,3 +1,12 @@
+# Michał Michalski
+**CTO & Lead AI Software Engineer**
+
+Poznań, Poland • [michal@buyuk.io](mailto:michal@buyuk.io) • [buyuk.io](https://buyuk.io) • [calendar](https://calendly.com/buyuk) • +48 514 954 985
+
+---
+
+**Skills:** LangChain Python FastAPI AI Agents Docker PostgreSQL Azure LLMs Flask C++ Redis JavaScript AWS Linux Vue K8s C# Prefect RAG Git
+
 
 I build AI systems that ship. Currently CTO at [IntelliRoom](https://www.intelliroom.ai/), an AI due diligence platform for VCs and private equity. Previously co-founded Fractile (acquired). Over a decade of engineering experience, from signal processing startups to Microsoft and Samsung R&D.
 
