@@ -85,13 +85,13 @@ header-includes:
     % Role and Tech helpers
     \newcommand{\role}[3]{% company, title, dates
       \needspace{5\baselineskip}%
-      \noindent\begin{minipage}[t]{0.72\textwidth}\textbf{#1} — \textit{#2}\end{minipage}%
+      \noindent\begin{minipage}[t]{0.72\textwidth}\textbf{#1}, \textit{#2}\end{minipage}%
       \hfill\begin{minipage}[t]{0.26\textwidth}\raggedleft #3\end{minipage}\\[-0.25em]}
     \newcommand{\tech}[1]{\textcolor{gray}{\footnotesize #1}}
     % Education helpers
     \newcommand{\edu}[3]{% university, department, dates
       \needspace{5\baselineskip}%
-      \noindent\begin{minipage}[t]{0.72\textwidth}\textbf{#1} — \textit{#2}\end{minipage}%
+      \noindent\begin{minipage}[t]{0.72\textwidth}\textbf{#1}, \textit{#2}\end{minipage}%
       \hfill\begin{minipage}[t]{0.26\textwidth}\raggedleft #3\end{minipage}}
     ```
 ---
@@ -154,19 +154,19 @@ I build AI systems that ship. Currently CTO at \mbox{\href{https://www.intelliro
 
 ## Earlier Experience
 
-\noindent\textbf{ActiveVideo Engineering} — Senior Software Engineer (08.2020 – 09.2021)\\
-Built HTTP proxy for remote OpenGL rendering; created end-to-end test framework.
+\role{ActiveVideo Engineering}{Senior Software Engineer}{08.2020 - 09.2021}
+HTTP proxy for remote OpenGL rendering; end-to-end test framework.
 
-\noindent\textbf{Samsung R\&D} — Software Engineer (09.2018 – 06.2020)\\
-Led Tizen WebAPI module; shipped EWIDL documentation system; optimized ToF sensor software.
+\role{Samsung R\&D}{Software Engineer}{09.2018 - 06.2020}
+Tizen WebAPI module lead; EWIDL documentation system; ToF sensor optimization.
 
-\noindent\textbf{Nokia} — Software Engineer (03.2017 – 08.2018)\\
-Developed LTE base-station components; automated workflows with internal tooling.
+\role{Nokia}{Software Engineer}{03.2017 - 08.2018}
+LTE base-station components; workflow automation.
 
-\noindent\textbf{Hewlett-Packard Enterprise} — Backend C++ Developer (02.2016 – 02.2017)\\
+\role{Hewlett-Packard Enterprise}{Backend C++ Developer}{02.2016 - 02.2017}
 Airline reservation systems; Rolls-Royce big-data processing.
 
-\noindent\textbf{Zylia} — R\&D Software Engineer (06.2014 – 02.2016)\\
+\role{Zylia}{R\&D Software Engineer}{06.2014 - 02.2016}
 STB OS components; audio algorithms; H264 watermark decoder.
 
 
