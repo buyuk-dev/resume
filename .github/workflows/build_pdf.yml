@@ -44,13 +44,13 @@ jobs:
             name: resume_pdf
             path: MichalskiMichal.pdf
             
-      - name: Commit PDF to the repository
+      - name: Commit generated files to the repository
         if: true
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Github Action"
-          git add MichalskiMichal.pdf
-          git commit -m "Update pdf version;" || echo "No changes to commit"
+          git add MichalskiMichal.pdf resume.md
+          git commit -m "Update generated files" || echo "No changes to commit"
           git push
 
       # Disabled - no longer syncing resume to blog
